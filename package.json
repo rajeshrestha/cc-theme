@@ -1,0 +1,22 @@
+{
+  "name": "cc-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "shopify theme dev --store crayons-corp-4965.myshopify.com",
+    "build": "vite build --minify",
+    "watch": "vite build --watch",
+    "twdev": "shopify theme dev -s crayons-corp-4965.myshopify.com && vite build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.12"
+  }
+}
